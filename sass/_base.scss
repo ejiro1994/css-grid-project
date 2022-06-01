@@ -1,0 +1,36 @@
+// COLOR VARIABLES
+$color-primary: #c69963;  // Brown-Yellow
+$color-primary-dark: #b28451; //Bronze (Metallic)
+
+$color-secondary: #101d2c; // Dark Jungle-Green
+
+$color-grey-light-1: #f9f7f6; // Cultured
+$color-grey-light-2: #aaa; // laurel-grey 
+
+$color-grey-dark-1: #54483a; // Olive--Drab Camouflage
+$color-grey-dark-2: #6d5d4b; //  Boy-Red
+
+// FONT VARIABLES
+$font-primary: "Nunito", sans-serif;
+$font-display: "Josefin Sans", sans-serif;
+
+// GLOBAL RESET
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+}
+
+body {
+    font-family: $font-primary ; 
+    color: $color-grey-dark-1;
+    font-weight: 300;
+    line-height: 1.6;
+}
